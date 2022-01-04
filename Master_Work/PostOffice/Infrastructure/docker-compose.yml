@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  postoffice.mongo:
+    image: mongo
+    container_name: 'postoffice.mongo'
+
+  postoffice.redis:
+    image: redis
+    container_name: 'postoffice.redis'
+    
+  postoffice.azurestorage:
+    image: 'mcr.microsoft.com/azure-storage/azurite'
+    container_name: 'postoffice.azurestorage'

@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# CRLF line endings
+*.sln text eol=crlf
+# Binary files
+*.png binary
+*.jpg binary
+*.gif   binary
+# Documents
+*.doc filter=lfs diff=lfs merge=lfs -text
+*.DOC	 diff=astextplain
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
