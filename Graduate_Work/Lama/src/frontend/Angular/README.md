@@ -19,6 +19,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * feature based
 
 <p align="center">
-  <img src="/docs/images/modules.png">
-  <img src="/docs/images/module-structure.png">
+  <img src="../../../docs/images/modules.png">
+  <img src="../../../docs/images/module-structure.png">
 </p>
