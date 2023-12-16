@@ -26,7 +26,7 @@ class Router
         // перевіряємо наявність запиту в списку маршрутів
         foreach ($this->routes as $uriPattern => $path) 
         {  
-            // порівнюємо $uriPattern и $uri
+            // порівнюємо $uriPattern і $uri
             if (preg_match("~^$uriPattern$~", $uri)) 
             {
                 
