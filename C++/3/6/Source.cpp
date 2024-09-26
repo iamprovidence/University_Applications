@@ -37,14 +37,14 @@ C:\>allocate 5
 0
 C:\>print
 |0xxxxxxxx|		|
-|				|
-|				|
+|			|
+|			|
 C:\>allocate 3
 5
 C:\>print
 |0xxxxxxxx|5xxxx|	|
-|					|
-|					|
+|			|
+|			|
 C:\>allocate 4
 8
 C:\>allocate 10
@@ -52,29 +52,29 @@ C:\>allocate 10
 C:\>print
 |0xxxxxxxx|5xxxx|8xx|
 |xxx|12xxxxxxxxxxxxx|
-|xxx|				|
+|xxx|		    |
 C:\>free 5
 C:\>print
 |0xxxxxxxx|     |8xx|
 |xxx|12xxxxxxxxxxxxx|
-|xxx|				|
+|xxx|		    |
 C:\>free 8
 C:\>print
-|0xxxxxxxx|			|
-| |12xxxxxxxxxxxxx	|
-|xxx|				|
+|0xxxxxxxx|	  |
+| |12xxxxxxxxxxxxx|
+|xxx|		  |
 C:\>allocate 6
 5
 C:\>print
 |0xxxxxxxx|5xxxxxxxx|
 |x| |12xxxxxxxxxxxxx|
-|xxx|				|
+|xxx|		    |
 C:\>allocate 3
 22
 C:\>print
 |0xxxxxxxx|5xxxxxxxx|
 |x| |12xxxxxxxxxxxxx|
-|xxx|22xxx|			|
+|xxx|22xxx|	    |
 C:\>exit
 
 */
